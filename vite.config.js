@@ -1,11 +1,10 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/',          // Vercel ke liye yeh important hai
+  base: './',
   build: {
-    outDir: 'dist',   // build output yahin jaayega
+    outDir: 'dist',
   },
 })
