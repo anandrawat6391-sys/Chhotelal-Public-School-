@@ -1,5 +1,4 @@
 import { Switch, Route } from "wouter";
-import { QueryClientProvider } from "@tanstack/react-query";
 import NotFound from"./pages/not-found";
 import Home from"./pages/Home";
 
