@@ -20,12 +20,12 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      "@": ".",
+      "@": "./src",
     },
   },
-  root: ".",
+  root: "./src",
   build: {
-    outDir: "dist",
+    outDir: "../dist",
     emptyOutDir: true,
   },
   server: {
