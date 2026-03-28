@@ -1,14 +1,14 @@
-import { Navbar } from "@/components/layout/Navbar";
-import { Hero } from "@/components/sections/Hero";
-import { About } from "@/components/sections/About";
-import { Academics } from "@/components/sections/Academics";
-import { FoundersMessage } from "@/components/sections/FoundersMessage";
-import { Testimonials } from "@/components/sections/Testimonials";
-import { Admissions } from "@/components/sections/Admissions";
-import { News } from "@/components/sections/News";
-import { Complaints } from "@/components/sections/Complaints";
-import { Contact } from "@/components/sections/Contact";
-import { Footer } from "@/components/layout/Footer";
+import Navbar from "../Navbar";
+import Hero from "../Hero";
+import About from "../About";
+import Academics from "../Academics";
+import FoundersMessage from "../FoundersMessage";
+import Testimonials from "../Testimonials";
+import Admissions from "../Admissions";
+import News from "../News";
+import Complaints from "../Complaints";
+import Contact from "../Contact";
+import Footer from "../Footer";
 
 export default function Home() {
   return (
