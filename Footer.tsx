@@ -1,7 +1,7 @@
 import { GraduationCap, Facebook, Youtube, Instagram } from "lucide-react";
 import { Link } from "wouter";
 
-export function Footer() {
+export default function Footer() {
   return (
     <footer className="bg-slate-950 text-slate-300 pt-20 pb-10 border-t-4 border-secondary">
       <div className="container mx-auto px-4 md:px-6">
