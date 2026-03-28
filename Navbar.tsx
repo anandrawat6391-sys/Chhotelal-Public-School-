@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "wouter";
 import { Menu, X, GraduationCap } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button } from "../button";
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -118,3 +118,4 @@ export function Navbar() {
     </nav>
   );
 }
+      
