@@ -11,10 +11,24 @@ import Hero from "../Hero";
 import Navbar from "../Navbar";
 import News from "../News";
 import Testimonials from "../Testimonials";
- return (
+
+function App() {
+  return (
     <>
-  <Router/>
-</>
+      <Navbar />
+      <Switch>
+        <Route path="/" component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/academics" component={Academics} />
+        <Route path="/admissions" component={Admissions} />
+        <Route path="/complaints" component={Complaints} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/founders-message" component={FoundersMessage} />
+        <Route path="/news" component={News} />
+        <Route path="/testimonials" component={Testimonials} />
+      </Switch>
+      <Footer />
+    </>
   );
 }
 
