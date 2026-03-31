@@ -1,6 +1,6 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, type MouseEvent } from "react";
 import { Link } from "wouter";
-import { Menu, X, GraduationCap } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { Button } from "../button";
 
 export function Navbar() {
@@ -20,9 +20,10 @@ export function Navbar() {
     { name: "Academics", href: "#academics" },
     { name: "Admissions", href: "#admissions" },
     { name: "News", href: "#news" },
+    { name: "ERP", href: "#erp-suite" },
   ];
 
-  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+  const handleNavClick = (e: MouseEvent<HTMLAnchorElement>, href: string) => {
     e.preventDefault();
     setIsMobileMenuOpen(false);
     const element = document.querySelector(href);

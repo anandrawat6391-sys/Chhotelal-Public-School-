@@ -8,7 +8,9 @@
     "build": "vite build",
     "start": "NODE_ENV=production node dist/index.cjs",
     "check": "tsc",
-    "db:push": "drizzle-kit push"
+    "db:push": "drizzle-kit push",
+    "dev:preview": "vite --host 0.0.0.0 --port 4173",
+    "preview:build": "vite preview --host 0.0.0.0 --port 4173"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
