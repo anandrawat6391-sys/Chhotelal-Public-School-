@@ -23,9 +23,9 @@ export default defineConfig({
       "@": "./src",
     },
   },
-  root: "./src",
+  root: ".",
   build: {
-    outDir: "../dist",
+    outDir: "dist",
     emptyOutDir: true,
   },
   server: {
